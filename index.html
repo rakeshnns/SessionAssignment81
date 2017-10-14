@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 8.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+	    /* Styling for Body*/
+	    body{
+	    	height: 500px;
+	    }
+	    /* Styling for ID = top*/
+		#top{
+			height:4%;
+			background-color: grey;
+		}
+        /* Styling for ID = Enter*/
+		#enter{
+			height:15%;
+			background-color: lightgrey;
+		}
+		/* Styling for ID = signup*/
+		#signup{
+			position: relative;
+			height:400px;
+			width: 49.76%;
+			display: inline-block;
+			background-color: lightgrey;
+
+		}
+		/* Styling for ID = login*/
+		#login{
+			position: absolute;
+			height:400px;
+			width: 49.76%;
+            display: inline-block;
+			background-color: lightgrey;
+		}
+		/* Styling for ID = loginbox*/
+	    #loginbox{
+
+			height:90%;
+			width: 70%;
+			background-color: #35446c;
+			margin: auto; 
+		}
+		/* Styling for all the input tags under ID = signup*/
+	    #signup input{
+		margin-left: 3%;
+		width: 60%;
+		padding: 4px;
+		border: 2px solid #ef6464;
+		border-radius: 4px;
+	    }
+	    /* Styling for all the input tags under ID = loginbox*/
+	    #loginbox input{
+		margin-left: 5%;
+		width: 90%;
+		padding: 4px;
+		border: 2px solid lightgrey;
+		border-radius: 4px;
+	    }
+	    /* Styling for all the button tags under ID = signup*/
+	    #signup button{
+		margin-left: 46%;
+		background-color: lightgrey;
+        color: #35446c;
+        padding:1% 5%;
+        border: 2px solid #35446c;
+	    }	 
+
+	</style>
+</head>
+<body>
+    <!-- Top portion div --> 
+	<div id="top"></div>
+	<br>
+	<!-- Enter portion div --> 
+	<div id="enter">
+	    <h2 style="color:#35446c;padding-left: 1% ">Enter the sytem</h2>
+		<p style="color: #959393;padding-left: 1%">It is necessary to login in your account inorder to sign up for a course.</p>
+	</div>
+	<!-- signup portion div --> 
+	<div id = "signup">
+		  <br>
+		  <br>
+	      <span style="padding-left: 3%;color: #959393;"><b>ARE YOU NEW?</b></span>
+	      <span style="color: #35446c;"><b>REGISTER</b></span>
+	      	<br>
+	      	<br>
+	      <!-- form inside signup portion div --> 	
+	      <form>
+	      	<input type="text" name="Username1" placeholder="User name">
+	      	<br>
+	      	<br>
+	      	<input type="text" name="email" placeholder="Email">
+	      	<br>
+	      	<br>
+	      	<input type="password" name="password1" placeholder="Password">
+	        <br>
+	      	<br>
+	      	<input type="password" name="confirmpassword1" placeholder="Confirm Password">
+	      	<br>
+	      	<br>
+	      	<button><b>Register</b></button>
+	      </form>
+	</div>  
+	<!-- login portion div -->     
+    <div id = "login">
+        <!-- loginbox inside login portion div --> 
+    	<div id="loginbox">
+    	    <br>
+    		<span style="color: white;padding-left: 3%"><b>ALREADY A STUDENT?LOGIN</b></span>
+    		<br>
+    		<br>
+    		<br>
+    		<!-- Form for loginbox portion div --> 
+    	    <form>
+	      	<input type="text" name="Username2" placeholder="User name">
+	      	<br>
+	      	<br>
+	      	<input type="password" name="password2" placeholder="Password">
+	      	<br>
+	      	<br>
+	      	<input type="checkbox" name="rememberme" style="display: inline-block;width: 20px">
+	      	<span style="color: white">Remember me?</span>
+	      	<button style="margin-left: 66%;background-color:#35446c;padding: 1% 5%;
+	      	color: white;border: 2px solid orange;"><b>Login</b></button>
+	      	
+	      	</form>
+	      	<!-- Forgot passord postion --> 
+	      	<a href="" style="margin-left: 66%;color: white">Forgot password?</a>
+    	</div>
+    </div>
+
+</body>
+</html>
